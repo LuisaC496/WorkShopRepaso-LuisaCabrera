@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principe Fresco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <nav class="header__nav">
+        <ul class="header__list">
+            <h1>Principe Fresco</h1>
+            <li class="header__item"><a href="index.html" class="header__link">SHOP</a></li>
+            <li class="header__item"><a href="./seccion_descripcion/mostrarInfo.html" class="header__link">COLLECTIONS</a></li>
+            <li class="header__item">
+                <a href="/pages/collection.html" class="header__link">
+                  <i class="fas fa-user"></i>
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="" class="header__link">
+                  <i class="fas fa-shopping-bag"></i>
+                </a>
+              </li>
+        </ul>
+    </nav>
+
+    <div id="containerCards" class="cards-container">
+        <!-- Aquí se mostrarán las cards generadas dinámicamente -->
+    </div>
+
+    <template id="template">
+        <div class="card">
+            <div class="card-images">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <h5></h5>
+            <p class="price"></p>
+            <p class="sizes"></p>
+
+        </div>
+    </template>
+    
+    <div class="footer-container">
+        <img src="https://res.cloudinary.com/dbjgyjyc2/image/upload/v1722903345/cover_inq7mb.jpg" alt="Imagen arriba del footer" class="footer-image">
+        <footer>
+            <p>Principe Fresco</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="https://i.pinimg.com/736x/42/75/49/427549f6f22470ff93ca714479d180c2.jpg" alt="facebook" width="30px">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346"
+                        alt="instagram" width="30px">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/scripts/modules/repetir.js"></script>
+</body>
+</html>

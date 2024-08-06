@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 357,
+      "name": "Zapatillas",
+      "price": 100,
+      "sizes": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "images": [
+        "https://i.ebayimg.com/images/g/l8sAAOSwRkhiNuJu/s-l500.jpg"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "chanclas",
+      "price": 500,
+      "sizes": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_939681-MCO70874680052_082023-O.webp"
+      ]
+    }
+  ]
+}
